@@ -92,7 +92,10 @@ if($_SESSION["loggedin"]==true && $_SESSION["role"]=="admin"):
                         </tr>
                     <?php endwhile;fclose($fp);?>
                     </tbody>
+                </table>
 
+                <div class="mt-3 text-center">
+                  <a href="registering.php" class="nav-link">Create New User</a>
                 </div>
               </div>
             </div>

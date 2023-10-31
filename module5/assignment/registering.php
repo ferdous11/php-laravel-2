@@ -30,7 +30,7 @@ if (isset($_POST["userName"]) && isset($_POST["password"]) && isset($_POST["emai
           <div class="col-12 col-sm-8 col-md-6 m-auto">
             <div class="card">
               <div class="card-body">
-                <h1 class=" text-center my-4 py-2">Role Management System</h1>
+                <h1 class=" text-center my-4 py-2">New User Registration</h1>
                 <form method="post" action="">
                   <?php if($error!=""):?>
                   <span><label style="color: red;" for=""><?=$error;?></label></span>
