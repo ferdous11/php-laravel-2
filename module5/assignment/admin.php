@@ -21,6 +21,7 @@ if(isset($_POST["delete"])&& $_POST["delete"]==1){
 }
 
 if(isset($_POST["edit"])&& $_POST["edit"]==1){
+  $_SESSION["editEmail"] = $_POST["email"];
   header("location:edit.php");
 }
 

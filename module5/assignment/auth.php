@@ -53,7 +53,7 @@ if(isset($_POST["logout"])&& $_POST["logout"]==1){
           <div class="col-12 col-sm-8 col-md-6 m-auto">
             <div class="card">
               <div class="card-body">
-                <h1 class=" text-center my-4 py-2">User Log IN</h1>
+                <h1 class=" text-center my-4 py-2">User Login Form</h1>
                 <form method="post" action="">
                   <?php if($error!=""):?>
                   <span><label style="color: red;" for=""><?=$error;?></label></span>
