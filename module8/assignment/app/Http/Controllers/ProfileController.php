@@ -15,7 +15,15 @@ class ProfileController extends Controller
             'name' => $name,
             'age' => $age,
         ];
-        $cookie = Cookie::make('access_token', '123-XYZ', 1, '/', $_SERVER['SERVER_NAME'], false, true);
+        $name = 'access_token';
+        $value = '123-XYZ';
+        $minutes = 1;
+        $path = '/';
+        $domain = $_SERVER['SERVER_NAME'];
+        $secure = true;
+        $httpOnly = true;
+
+        $cookie = Cookie::make($name, $value, $minutes, $path, $domain, $secure, $httpOnly);
         return response($data, 200)->cookie($cookie);
     }
 }
