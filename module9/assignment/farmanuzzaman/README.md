@@ -4,8 +4,8 @@
 
 Step-by-step instructions on how to install the Laravel project. Use this commands for installing Composer dependencies and setting up the database.
 # Example installation steps
- git clone [https://github.com/ferdous11/php-laravel-2/tree/main/module9/assignment/farmanuzzaman]
- cd yourlaravelproject
- composer install
- cp .env.example .env
- php artisan serve
+- git clone [https://github.com/ferdous11/php-laravel-2/tree/main/module9/assignment/farmanuzzaman]
+- cd yourlaravelproject
+- composer install
+- cp .env.example .env
+- php artisan serve
